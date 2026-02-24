@@ -1,16 +1,16 @@
-def hola(): print("Hola, mundo!")
-    
-def sumar_dos():
-    print(2 + 2)
-    
-def dame_un_cinco():
-    return 5
 
-def espacio():
-    print("\n")
-    
-def autor():
-    print("Creado por Jair")
+def funcion_uno():
+    print("Hola")
 
-    
+def funcion_dos():
+    funcion_uno()  
+    print("¿Cómo estás?")
+
+def funcion_tres():
+    print("Adiós")
+
+
+funcion_uno()
+funcion_dos()
+funcion_tres()
     
